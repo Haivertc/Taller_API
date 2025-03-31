@@ -3,6 +3,10 @@
 ## 📌 Descripción
 Esta API permite gestionar usuarios y sus tareas asociadas. Implementa autenticación con **JWT**, almacenamiento en **MongoDB Atlas**, y está desplegada en **Render**.
 
+## 👥 Integrantes
+- **Haiver Jahir Trujillo Cruz**
+- **Codigo: 202011549**
+
 ## 🌐 URL del Servicio
 🔗 [API en Producción](https://taller-api-1uop.onrender.com)
 
@@ -53,7 +57,7 @@ Todos los endpoints de tareas requieren autenticación mediante un **token JWT**
 ```sh
 Authorization: Bearer token
 ```
-
+## 🏗 Arquitectura del Proyecto
 📂 Taller_API/
 ├── 📂 middleware/      # Middleware de autenticación
 │   ├── auth.js        # Middleware para verificar JWT
