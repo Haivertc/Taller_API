@@ -58,22 +58,24 @@ Todos los endpoints de tareas requieren autenticación mediante un **token JWT**
 Authorization: Bearer token
 ```
 ## 🏗 Arquitectura del Proyecto
-📂 Taller_API/
-├── 📂 middleware/      # Middleware de autenticación
-│   ├── auth.js        # Middleware para verificar JWT
-├── 📂 models/          # Modelos de datos
-│   ├── User.js         # Modelo de usuario
-│   ├── Task.js         # Modelo de tarea
-├── 📂 routes/          # Rutas de la API
-│   ├── userRoutes.js   # Endpoints de usuarios
-│   ├── taskRoutes.js   # Endpoints de tareas
-├── .env               # Variables de entorno (No subir a Git)
-├── .gitignore         # Archivos y carpetas ignoradas en Git
-├── package.json       # Dependencias y configuración del proyecto
-├── package-lock.json  # Versiones exactas de los paquetes
-├── README.md          # Documentación de la API
-├── server.js          # Servidor principal
-├── swagger.js         # Configuración de Swagger
+
+📂 **Taller_API/**
+├── 📂 middleware/         # Middleware de autenticación
+│   ├── auth.js           # Middleware para verificar JWT
+├── 📂 models/            # Modelos de datos
+│   ├── User.js           # Modelo de usuario
+│   ├── Task.js           # Modelo de tarea
+├── 📂 routes/            # Rutas de la API
+│   ├── userRoutes.js     # Endpoints de usuarios
+│   ├── taskRoutes.js     # Endpoints de tareas
+├── .env                  # Variables de entorno (No subir a Git)
+├── .gitignore            # Archivos y carpetas ignoradas en Git
+├── package.json          # Dependencias y configuración del proyecto
+├── package-lock.json     # Versiones exactas de los paquetes
+├── README.md             # Documentación de la API
+├── server.js             # Servidor principal
+├── swagger.js            # Configuración de Swagger
+
 
 MIT - Puedes usar y modificar libremente este código.
 
