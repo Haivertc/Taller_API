@@ -4,7 +4,7 @@
 Esta API permite gestionar usuarios y sus tareas asociadas. Implementa autenticación con **JWT**, almacenamiento en **MongoDB Atlas**, y está desplegada en **Render**.
 
 ## 🌐 URL del Servicio
-🔗 [API en Producción](https://myapi.onrender.com)
+🔗 [API en Producción](https://taller-api-1uop.onrender.com)
 
 ## 🚀 Tecnologías Utilizadas
 - **Node.js** + **Express.js**
@@ -36,7 +36,7 @@ Esta API permite gestionar usuarios y sus tareas asociadas. Implementa autentica
 
 ## 📖 Documentación Swagger
 Puedes acceder a la documentación de la API en:
-🔗 [Swagger UI](https://myapi.onrender.com/api-docs)
+🔗 [Swagger UI](https://taller-api-1uop.onrender.com/api-docs/)
 
 ## 📌 Endpoints Principales
 ### 🔹 **Usuarios**
@@ -72,7 +72,4 @@ Authorization: Bearer token
 ├── swagger.js         # Configuración de Swagger
 
 MIT - Puedes usar y modificar libremente este código.
-
----
-📩 **Contacto:** [tuemail@example.com](mailto:tuemail@example.com)
 
